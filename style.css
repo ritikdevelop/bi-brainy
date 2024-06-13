@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-section {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  /* padding: 0px;
+    margin: 0px; */
+}
+
+.header {
+  /* margin: 10px; */
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 2px solid white; */
+}
+
+.nav-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  margin: 2.5px;
+  border: 2px solid white;
+  width: 90%;
+  height: auto;
+  border-radius: 90px;
+}
+
+#nav-items {
+  /* position: relative; */
+  /* right: 110px; */
+  display: inline;
+  font-size: 1.2rem;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(188, 179, 179);
+  text-decoration: none;
+  padding: 15px;
+  /* gap: 10px; */
+}
+
+.bxl-facebook {
+  position: relative;
+  top: 4px;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  color: #1877f2;
+}
+
+.bxl-twitter {
+  position: relative;
+  top: 4px;
+  color: #1da1f2;
+}
+
+.bxl-linkedin {
+  position: relative;
+  top: 4px;
+  color: #0072b1;
+}
+
+.bxl-instagram {
+  position: relative;
+  top: 4px;
+  /* color: #f09433; */
+  color: rgb(202, 35, 124);
+}
+
+.bxl-youtube {
+  position: relative;
+  top: 4px;
+  color: #ff0000;
+}
+
+.nav-header {
+  display: flex;
+  padding: 13px;
+  /* gap: 10px; */
+  margin-left: 10px;
+  /* margin-right: 5px; */
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#nav-items:hover{
+  transition: .3s;
+  color: white;
+}
+
+.Menu {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+.nav-logo {
+  display: flex;
+  /* position: relative; */
+  /* left: 110px; */
+  justify-content: space-around;
+  align-items: center;
+  width: 95px;
+  height: 80px;
+  cursor: pointer;
+}
+
+/* .fa fa-instagram{
+    color: white;
+    background-color: white;
+} */
+.fa-brands fa-instagram {
+  color: pink;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gold;
+  width: 80px;
+  font-size: 15px;
+  background-color: transparent;
+  color: white;
+  height: 35px;
+  border-radius: 20px;
+  /* cursor: pointer; */
+}
+
+.login:hover {
+  background-color: gold;
+  color: black;
+}
